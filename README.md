@@ -5,6 +5,7 @@
 ## Welcome! 👋
 
 Thanks for checking out my front-end coding challenge.
+![Check it out!](https://karse22.github.io/order-summary-component-frontEndMentor/)
 
 ## The challenge
 
