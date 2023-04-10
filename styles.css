@@ -3,10 +3,6 @@
   font-size: 16px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 html {
   max-width: 1440px;
 }
@@ -14,6 +10,8 @@ html {
 body {
   font-family: 'Red Hat Display', sans-serif;
   min-height: 100vh;
+  display: grid;
+  place-items: center;
   background-image: url(images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   /* background-size sets the size of the element's background image */
@@ -23,10 +21,6 @@ body {
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
-}
-
-ol, ul {
-  list-style: none;
 }
 
 img {
@@ -58,7 +52,7 @@ button:hover, button:active {
   /* will come back to later, not sure if I need this max-height property */
   max-height: 697px;
   text-align: center;
-  margin: 102px auto 101px;
+  /* margin: 102px auto 101px; */
   border-radius: 20px;
   background-color: #fff;
   /* specifies what content should do if it overflows an element's box - clip content or add scrollbarrs */
